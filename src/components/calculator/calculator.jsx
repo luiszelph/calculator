@@ -10,7 +10,7 @@ const Calculator = () => {
         <div className='calculator'>
             <form action="">
                 <div className='display'>
-                    <input type='text' value={value} />
+                    <input type='text' className='inDisplay' value={value} />
                 </div>
                 <div>
                     <input type='button' value="AC" onClick={e => setValue('')}/>

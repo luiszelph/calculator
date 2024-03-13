@@ -10,7 +10,7 @@
 .calculator {
     padding: 20px;
     border-radius: 10px;
-    background-color: #F1F0EE;
+    background-color: #141414;
 }
 
 form input {
@@ -19,23 +19,22 @@ form input {
     width: 60px;
     height: 60px;
     font-size: 16px;
-    background-color: #A00000;
+    background-color: #E6E6E3;
     margin: 2px;
     border-radius: 10px;
-    color: #E6E6E3;
+    color: #141414;
     font-weight: bolder;
     cursor: pointer;
 }
 
 form input[type="button"]:hover {
-    background-color: #141414;
+    background-color: #A00000;
 }
 
 form .display {
     display: flex;
     justify-content: flex-end;
     margin: 5px 0px 15px 0px;
-
 }
 
 form .display input {
@@ -43,9 +42,10 @@ form .display input {
     flex: 1;
     font-size: 40px;
     padding: 5px 10px;
-    background-color: #141414;
+    background-color: #E6E6E3;
 }
 
 form input.equal {
+    background-color: #A00000;
     width: 130px;
 }
